@@ -38,5 +38,12 @@ main section{
 main section article{
     border: 1px solid black;
 }
+/*MORE STORIES SECTION*/
+.more-stories-img{
+    float: left;
+    padding-right: 2%;
+    width: 30%; 
+}
+
 
 /*FEATURES STORIES*/
