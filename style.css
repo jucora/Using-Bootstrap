@@ -1,27 +1,36 @@
 header{
     background-color: #f72210;
     color: white;
-    height: 100px;
     padding-bottom: 6.8em;
     vertical-align: middle;
+    padding: 0.8% 3%;
 }
-header a{
+.date{
     color: white;
+}
+.sign{
+    color: white;
+    font-size: 1em;
 }
 .header-a2{
     color: #f72210;
-    padding: 0.8% 3%;
-}
-header h1{
-    font-size: 1.7em;
-    font-weight: bold;
+    padding: 2% 3%;
 }
 /*NAVBAR*/
 nav{
-    background-color: blue;
-    color: white;
+    color: black;
+    font-weight: bold;
 }
-
+nav a{
+    list-style-type: none;
+    margin: auto;
+    text-align: center;
+}
+nav span{
+    color: black;
+    font-weight: 100;
+    font-size: 0.9em;
+}
 /*MAIN*/
 main section{
     border: 1px solid black;
