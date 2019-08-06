@@ -1,10 +1,16 @@
 header{
     background-color: #f72210;
     color: white;
-    height: 50px;
+    height: 100px;
+    padding-bottom: 6.8em;
+    vertical-align: middle;
 }
 header a{
     color: white;
+}
+.header-a2{
+    color: #f72210;
+    padding: 0.8% 3%;
 }
 header h1{
     font-size: 1.7em;
