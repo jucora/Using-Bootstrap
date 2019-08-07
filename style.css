@@ -46,5 +46,22 @@ main section article{
     width: 30%; 
 }
 
-
-/*FEATURES STORIES*/
+/*LATEST NEWS SECTION*/
+.newsweek-logo{
+    float: left;
+    width: 1.5em;
+}
+.latest-card{
+    background-color: #e5e5e5;
+    border-color: #f4f5f6;
+}
+.sign-up{
+    margin-left: 13%;
+    margin-top: -2%;
+    text-transform: uppercase;
+}
+.latest-Update-text{
+    font-weight: bold;
+    font-size: 0.8em;
+    margin-top: 3%;
+}
