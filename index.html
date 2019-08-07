@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <link href="style.css" rel="stylesheet">
+    <link rel="stylesheet" href="media.css">
 
     <title>Using Bootstrap</title>
   </head>
@@ -26,7 +27,7 @@
      </header>
      <!--NAVBAR-->
      
-        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <nav class="navbar navbar-expand-lg navbar-light bg-light fixed">
             <ul class="navbar-nav mx-auto">
                  <li class="nav-item"><a class="navbar-brand" href="#">U.S.</a></li>
                  <li class="nav-item"><a class="navbar-brand">World</a></li>
@@ -43,8 +44,8 @@
      
      
      <main class="container-fluid">
-         <div class="row">
-             <section class="col-lg-3">
+         <div class="row featured-stories">
+             <section class="col-lg-3 col-md-5">
                  FEATURED STORIES
                  <img class="w-100" src="img/newsweek-momentum-awards-2019.png" alt="">
                  <h3>The Newsweek Momentum Awards</h3>
@@ -72,7 +73,7 @@
                  <p>Africa’s fifth-largest oil producer is modernizing infrastructure and taking advantage of natural resources to build sustainable economic sectors including mining, timber and ecotourism.</p>
              </section>
              
-             <section class="col-lg-6">
+             <section class="col-lg-6 col-md-7">
                  TOP STORY
                  <img class="w-100" src="img/el-paso-shooting.jpg" alt="">
                  <h3>Mitch McConnell Remains Silent on Pushing Gun Regulation Through Senate </h3>
@@ -172,11 +173,11 @@
                 </div>  
             </section>
             
-             <section class="col-lg-3">
+             <section class="col-lg-3 col-md-12">
                  OPINION
                  <div class="row">
                      <div class="col lg-4">
-                         <img src="img/michael-e-mann.png" alt="" class="more-stories-img">
+                         <img src="img/michael-e-mann.png" alt="" class="more-stories-img opinion-img">
                         <p>Climate Change Is Finally on the Agenda for 2020. But Is It Too Late?</p>
                         <span> By Michael E. Mann</span>
                         <hr>
@@ -184,7 +185,7 @@
                  </div>
                  <div class="row">
                      <div class="col lg-4">
-                         <img src="img/sayu-bhojwani.png" alt="" class="more-stories-img">
+                         <img src="img/sayu-bhojwani.png" alt="" class="more-stories-img opinion-img">
                         <p>It'll Take More Than Photo Ops at the Border to Win the Immigrant Vote</p>
                         <span> By Sayu Bhojwani</span>
                         <hr>
@@ -192,7 +193,7 @@
                  </div>
                  <div class="row">
                      <div class="col lg-4">
-                         <img src="img/anthony-harwood.png" alt="" class="more-stories-img">
+                         <img src="img/anthony-harwood.png" alt="" class="more-stories-img opinion-img">
                         <p>The Incredible Pettiness of Saudi 'Progress' on Women's Rights</p>
                         <span> By Anthony Harwood</span>
                         <hr>
@@ -200,7 +201,7 @@
                  </div>
                  <div class="row">
                      <div class="col lg-4">
-                         <img src="img/r-kyle-alagood.png" alt="" class="more-stories-img">
+                         <img src="img/r-kyle-alagood.png" alt="" class="more-stories-img opinion-img">
                         <p>I Drafted Eric Swalwell's Leading Gun Control Plan. The Fight Must Go On</p>
                         <span> By R. Kyle Alagood</span>
                         <hr>
@@ -208,7 +209,7 @@
                  </div>
                  <div class="row">
                      <div class="col lg-4">
-                         <img src="img/alexandra-minna-stern.png" alt="" class="more-stories-img">
+                         <img src="img/alexandra-minna-stern.png" alt="" class="more-stories-img opinion-img">
                         <p>It's Come to This: White Nationalism Is Inciting Mass Murder in America</p>
                         <span> By Alexandra Minna Stern</span>
                         <hr>
@@ -216,7 +217,7 @@
                  </div>
                  <div class="row">
                      <div class="col lg-4">
-                         <img src="img/alfie-bown.png" alt="" class="more-stories-img">
+                         <img src="img/alfie-bown.png" alt="" class="more-stories-img opinion-img">
                         <p>China's Answer to the Hong Kong Crisis Must Be Political Reform</p>
                         <span> By Alfie Bown and Mou Ming.</span>
                      </div>
@@ -226,37 +227,37 @@
                  <div class="row">
                    LATEST NEWS
                     <div class="col-lg-12">
-                        <img src="img/trump-powell.jpg" alt="" class="more-stories-img w-50">
+                        <img src="img/trump-powell.jpg" alt="" class="more-stories-img latest-img w-50">
                         <span>Former Fed Chairs Warn Trump Not to Mix Politics and Monetary Policy</span>
-                        <hr>
+                        <hr class="lastest-hr">
                     </div>
                     <div class="col-lg-12">
-                        <img src="img/ohioshootingmemorial-6august2019.jpg" alt="" class="more-stories-img w-50">
+                        <img src="img/ohioshootingmemorial-6august2019.jpg" alt="" class="more-stories-img latest-img w-50">
                         <span>Former Fed Chairs Warn Trump Not to Mix Politics and Monetary Policy</span>
-                        <hr>
+                        <hr class="lastest-hr">
                     </div>
                     <div class="col-lg-12">
-                        <img src="img/michelle-obama-youtube-series-college-advice.jpg" alt="" class="more-stories-img w-50">
+                        <img src="img/michelle-obama-youtube-series-college-advice.jpg" alt="" class="more-stories-img latest-img w-50">
                         <span>Former Fed Chairs Warn Trump Not to Mix Politics and Monetary Policy</span>
-                        <hr>
+                        <hr class="lastest-hr">
                     </div>
                     <div class="col-lg-12">
-                        <img src="img/dayton-mayor-nan-whaley.jpg" alt="" class="more-stories-img w-50">
+                        <img src="img/dayton-mayor-nan-whaley.jpg" alt="" class="more-stories-img latest-img w-50">
                         <span>Former Fed Chairs Warn Trump Not to Mix Politics and Monetary Policy</span>
-                        <hr>
+                        <hr class="lastest-hr">
                     </div>
                     <div class="col-lg-12">
-                        <img src="img/former-fbi-counterintelligence-division-deputy-assistant-director-peter-strzok-testifies-house.jpg" alt="" class="more-stories-img w-50">
+                        <img src="img/former-fbi-counterintelligence-division-deputy-assistant-director-peter-strzok-testifies-house.jpg" alt="" class="more-stories-img latest-img w-50">
                         <span>Former Fed Chairs Warn Trump Not to Mix Politics and Monetary Policy</span>
-                        <hr>
+                        <hr class="lastest-hr">
                     </div>
                     <div class="col-lg-12">
-                        <img src="img/gettyimages-170248179.jpg" alt="" class="more-stories-img w-50">
+                        <img src="img/gettyimages-170248179.jpg" alt="" class="more-stories-img latest-img  w-50">
                         <span>Former Fed Chairs Warn Trump Not to Mix Politics and Monetary Policy</span>
-                        <hr>
+                        <hr class="lastest-hr">
                     </div>
                     <div class="col-lg-12">
-                        <img src="img/donald-trump-speaks-about-mass-shootings-wh.jpg" alt="" class="more-stories-img w-50">
+                        <img src="img/donald-trump-speaks-about-mass-shootings-wh.jpg" alt="" class="more-stories-img latest-img w-50">
                         <span>Former Fed Chairs Warn Trump Not to Mix Politics and Monetary Policy</span>
                     </div>
                 </div>
