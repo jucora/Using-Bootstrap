@@ -69,3 +69,38 @@ main section article{
 .editor-pick{
     
 }
+/*SUBSCRIBE AND NEWSLETTER SECTION*/
+.subscribe-section{
+    height: 20em;
+    padding: 3%;
+}
+.previous-magazine{
+    float: left;
+    position: absolute;
+    width: 25%;
+}
+.current-magazine{
+    float: left;
+    left: 13%;
+    position: relative;
+    top: 0.9em;
+    width:30%;
+}
+.magazine-desc{
+    width: 50%; 
+    margin-left: 50%;  
+}
+.subs-news-a{
+    background-color: #f72210;
+    color: white;
+    font-weight: bold;
+    padding: 3%;
+}
+.newsletter-desc{
+    float: right;
+    width: 50%;
+}
+.newsletter-img{
+    width: 40%;
+    height: 100%;
+}
