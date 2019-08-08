@@ -8,6 +8,11 @@ header{
 .date{
     color: white;
 }
+header h1{
+    font-size: 6em;
+    font-weight: bolder;
+    text-align: center;
+}
 .sign{
     color: white;
     font-size: 1em;
@@ -16,14 +21,17 @@ header{
     color: #f72210;
     padding: 2% 3%;
 }
+.burger{
+    width: 12%;
+}
 /*NAVBAR*/
 nav{
     color: black;
     font-weight: bold;
+    margin: 0 auto;
 }
 nav a{
     list-style-type: none;
-    margin: auto;
     text-align: center;
 }
 nav span{
@@ -103,4 +111,33 @@ main section article{
 .newsletter-img{
     width: 40%;
     height: 100%;
+}
+
+/*FOOTER*/
+.footer-img{
+    float: left;
+    width: 20%;
+}
+.footer-list1{
+    float: left;
+    width:50%;
+}
+.footer-list li{
+    display: inline;
+    text-decoration: none;
+}
+.footer-list a{
+    border-left: 1px solid gray;
+    color: gray;
+    padding-left: 2%;
+}
+.footer-list2{
+    width: 50%;
+}
+.footer-list2 li{
+    
+ 
+}
+.footer-list2 img{
+    width: 5%;
 }

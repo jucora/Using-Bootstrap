@@ -1,6 +1,11 @@
 
 /* Medium devices (landscape tablets, 768px and up) */
+
 @media only screen and (max-width: 991px) {
+    header div img{
+        width: 2%;;
+    }
+    
     .opinion-img{
         width: 10%;
     }
