@@ -29,6 +29,15 @@ nav{
     color: black;
     font-weight: bold;
     margin: 0 auto;
+    text-align: center;
+}
+nav li{
+    width: 25%;
+}
+.li-border{
+    border-right: 1px solid gray;
+    padding-left: 0.5%;
+    padding-right: 0.5%;
 }
 nav a{
     list-style-type: none;
