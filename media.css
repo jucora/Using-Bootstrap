@@ -1,10 +1,11 @@
-
-/* Medium devices (landscape tablets, 768px and up) */
-
 @media only screen and (max-width: 991px) {
     header h1{
         font-size: 2em;
         float: left;
+        width: 50%;
+    }
+    .header-div-3{
+        padding-bottom: 1%;
     }
     header div img{
         width: 3%!important;
@@ -23,11 +24,10 @@
     
     
     /*PUBLICITY SECTION;*/
-.publicity{
-    margin: 0 auto;
-    width: 40%;
-}
-    
+    .publicity{
+        margin: 0 auto;
+        width: 40%;
+    }
     
    .previous-magazine{
         width: 19%!important;
@@ -41,4 +41,4 @@
     .newsletter-img{
         width: 19%!important;
     }
-} 
+}

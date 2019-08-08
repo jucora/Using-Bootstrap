@@ -6,20 +6,19 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <link href="style.css" rel="stylesheet">
     <link rel="stylesheet" href="media.css">
-
     <title>Using Bootstrap</title>
   </head>
   <body>
     <!--HEADER-->
      <header class="container-fluid">
          <div class="row">
-             <div class="d-md-none col-lg-3 d-lg-block align-self-end">
+             <div class="d-none d-lg-block col-lg-3 align-self-end">
                  <span class="date">Tue, Aug 06, 2019</span>
              </div>
-             <div class="col-lg-6 align-self-center">
+             <div class="col-lg-6 col-md-6 col-sm-6 col-sx-6 align-self-center">
                  <h1>Newsweek</h1>
              </div>
-             <div class="col-lg-3 text-right font-weight-bold align-self-end header-div-3">
+             <div class="col-lg-3 col-md-6 col-sm-6 col-sx-6 text-right font-weight-bold align-self-end header-div-3">
                  <span href="" class="sign">SIGN IN</span>
                  <span href="" class="bg-white header-a2">SUBSCRIBE</span>
                  <img src="img/burger.png" alt="burger-menu" class="burger d-md-inline d-lg-none">
@@ -28,7 +27,7 @@
      </header>
      <!--NAVBAR-->
      
-        <nav class="navbar navbar-expand-lg navbar-light bg-light p-fixed d-lg-block d-md-none d-sm-none d-xs-none">
+        <nav class="navbar navbar-expand-lg navbar-light bg-light d-none d-lg-block">
             <ul class="navbar-nav">
                  <li class="nav-item li-border"><a class="navbar-brand" href="#">U.S.</a></li>
                  <li class="nav-item li-border"><a class="navbar-brand">World</a></li>
@@ -444,78 +443,100 @@
                     </article>
                 </div>  
              </section>
+             <br>
              
-             <section>
-                <div class="row">
-                     <article class="col-lg-7 col-md-12 subscribe-section">
-                       <h6 style="color: red; font-weight: bold;">SUBSCRIBE</h6>
-                        <img src="img/august-2-2019-cover.jpg" alt="august-2-2019-cover" class="previous-magazine">
-                        <img src="img/cover-august-09-2019.jpg" alt="cover-august-09-2019" class="current-magazine">
-                        <div class="magazine-desc">  
-                            <p style="font-weight: bold;">In-depth Stories You Don't See Elsewhere About Topics You Want to Read!</p>
-                            <p>All Access + Weekly Delivery. Choose A Membership That's Perfect for You!</p>
-                            <a href="#" class="subs-news-a">SUBSCRIBE &#62;</a>
-                        </div> 
-                     </article>
-                     <article class="col-lg-5 col-md-12 subscribe-section">
-                            <h6 style="color: red; font-weight: bold;">NEWSLETTER</h6>
-                            <img src="img/subscribe-img2.gif" alt="subscribe-img" class="newsletter-img">
-                            <div class="newsletter-desc">
-                                <p style="font-weight: bold;">In-depth Stories You Don't See Elsewhere About Topics You Want to Read!</p>
-                                <p>All Access + Weekly Delivery. Choose A Membership That's Perfect for You!</p>
-                                <a href="#" class="subs-news-a">SIGN UP &#62;</a>
+             <section class="row">
+               <div class="col-lg-7 col-md-12">
+               <h4 style="color: red;">SUBSCRIBE</h4>
+                <div class="card mb-3">
+                    <div class="row no-gutters">
+                        <div class="col-md-4">
+                          <img style="width: 60%; position: relative;" src="img/august-2-2019-cover.jpg" class="card-img" alt="august-2-2019-cover">
+                          <img style="width: 60%; position: absolute; right: 10%; top: 5%;" src="img/cover-august-09-2019.jpg" class="card-img" alt="cover-august-09">
+                        </div>
+                        <div class="col-md-8">
+                            <div class="card-body" style="padding-left: 0;">
+                                <h5 class="card-title">Card title</h5>
+                                <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                                <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
                             </div>
-                     </article>
-                    </div>       
-             </section>    
-     </main>
-     <br>
-     <footer class="container">
+                        </div>
+                     </div>
+                    </div>
+                </div>
+                
+                <div class="col-lg-5 col-md-12">
+                <div class="card mb-3" >
+                   <h4 style="color: red;">NEWSLETTER</h4>
+                    <div class="row no-gutters">
+                        <div class="col-md-4">
+                          <img src="img/subscribe-img2.gif" class="card-img" alt="...">
+                        </div>
+                        <div class="col-md-8">
+                            <div class="card-body">
+                                <h5 class="card-title">Card title</h5>
+                                <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                                <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                            </div>
+                        </div>
+                     </div>
+                    </div>
+                </div>
+             </section>   
+                   
+    </main>
+     <br><br>
+     <footer class="container-fluid">
          <div class="row">
-             <div class="col-lg-12">
-                <div>
-                     <img class="footer-img" src="img/newsweek-footer.png" alt="">
-                     <span>© 2019 Newsweek</span>
-                     <ul class="footer-list footer-list1">
-                      <li><a href=""><img src="img/facebook.png" alt="facebook"></a></li>
-                      <li><a href=""><img src="img/twitter.png" alt="twitter"></a></li>
-                      <li><a href=""><img src="img/instagram.png" alt="instagram"></a></li>
-                      <li><a href=""><img src="img/picons.png" alt="picons"></a></li>
-                       <li><a href=""><img src="img/linkedin.png" alt="linkedin"></a></li>
-                     </ul>
+            <div class="col-lg-4 col-md-6 col-sm-12  col-xs-12">
+                <img class="footer-img" src="img/newsweek-footer.png" alt="">
+                <span>© 2019 Newsweek</span>
+            </div>
+            <br>
+            <div class="col-lg-4">
+                
+            </div>
+            <div class="col-lg-4 col-md-6 col-sm-12  col-xs-12">
+                <ul class="footer-list footer-list1">
+                    <li><a href=""><img src="img/facebook.png" alt="facebook"></a></li>
+                    <li><a href=""><img src="img/twitter.png" alt="twitter"></a></li>
+                    <li><a href=""><img src="img/instagram.png" alt="instagram"></a></li>
+                    <li><a href=""><img src="img/picons.png" alt="picons"></a></li>
+                    <li><a href=""><img src="img/linkedin.png" alt="linkedin"></a></li>
+                </ul>
+            </div>
+        </div>
+            <br>
+            <hr>
+        <div class="row">
+               <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
+                <ul class="footer-list footer-list2">
+                    <li><a href="">About Us</a></li>
+                    <li><a href="">Corrections</a></li>
+                    <li><a href="">Contact Us</a></li>
+                    <li><a href="">Editorial Guidelines</a></li>
+                    <li><a href="">Advertise</a></li>
+                    <li><a href="">Copyright</a></li>
+                    <li><a href="">Terms &#33; Conditions</a></li>
+                    <li><a href="">Privacy Policy</a></li>
+                    <li><a href="">Cookie Policy</a></li>
+                    <li><a href="">Terms of Sale</a></li>
+                    <li><a href="">Archive</a></li>
+                    <li><a href="">Announcements</a></li>
+                    <li><a href="">Consent Preferences</a></li>
+                </ul>
+                 </div>  
+                 <div class="col-lg-6 col-md-6 col-sm-12  col-xs-12">  
+                <ul class="footer-list footer-list3">
+                    <li><strong>Editions:</strong></li>
+                    <li><a href="">U.S. Edition</a></li>
+                    <li><a href="">日本</a></li>
+                    <li><a href="">한국</a></li>
+                    <li><a href="">Pakistan</a></li>
+                    <li><a href="">Polska</a></li>
+                    <li><a href="">România</a></li>
+                </ul>
                 </div>
-                <br>
-                <hr>
-                <div>
-                    <ul class="footer-list footer-list2">
-                     <li><a href="">About Us</a></li>
-                     <li><a href="">Corrections</a></li>
-                     <li><a href="">Contact Us</a></li>
-                     <li><a href="">Editorial Guidelines</a></li>
-                     <li><a href="">Advertise</a></li>
-                     <li><a href="">Copyright</a></li>
-                     <li><a href="">Terms &#33; Conditions</a></li>
-                     <li><a href="">Privacy Policy</a></li>
-                     <li><a href="">Cookie Policy</a></li>
-                     <li><a href="">Terms of Sale</a></li>
-                     <li><a href="">Archive</a></li>
-                     <li><a href="">Announcements</a></li>
-                     <li><a href="">Consent Preferences</a></li>
-                     </ul>
-                     
-                     <label for="">
-                        <strong>Editions:</strong>
-                        <ul class="footer-list footer-list3">
-                            <li><a href="">U.S. Edition</a></li>
-                            <li><a href="">日本</a></li>
-                            <li><a href="">한국</a></li>
-                            <li><a href="">Pakistan</a></li>
-                            <li><a href="">Polska</a></li>
-                            <li><a href="">România</a></li>
-                        </ul>
-                    </label>
-                </div>
-             </div>
          </div>
      </footer>
      

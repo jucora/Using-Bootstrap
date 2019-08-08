@@ -2,8 +2,8 @@ header{
     background-color: #f72210;
     color: white;
     padding-bottom: 6.8em;
-    vertical-align: middle;
     padding: 0.8% 3%;
+    vertical-align: middle;
 }
 .date{
     color: white;
@@ -22,9 +22,11 @@ header h1{
     padding: 2% 3%;
 }
 .burger{
-    width: 12%;
+    width: 6.5%!important;
 }
+
 /*NAVBAR*/
+
 nav{
     color: black;
     font-weight: bold;
@@ -48,14 +50,15 @@ nav span{
     font-weight: 100;
     font-size: 0.9em;
 }
+
 /*MAIN*/
+
 main section{
     border: 1px solid black;
 }
 main section article{
     border: 1px solid black;
 }
-
 /*MORE STORIES SECTION*/
 .more-stories-img{
     float: left;
@@ -86,10 +89,11 @@ main section article{
     margin-top: 3%;
 }
 /*EDITORS PICK SECTION*/
-.editor-pick{
-    
+
+.editor-pick{    
 }
 /*SUBSCRIBE AND NEWSLETTER SECTION*/
+
 .subscribe-section{
     height: 20em;
     padding: 3%;
@@ -106,10 +110,6 @@ main section article{
     top: 0.9em;
     width:30%;
 }
-.magazine-desc{
-    width: 50%; 
-    margin-left: 50%;  
-}
 .subs-news-a{
     background-color: #f72210;
     color: white;
@@ -118,8 +118,10 @@ main section article{
 }
 .newsletter-desc{
     float: left;
-    margin-left: 5%;
-    width: 50%;
+    width: 100%;
+}
+.newsletter-desc p{
+    float: left;
 }
 .newsletter-img{
     float: left;
@@ -128,18 +130,15 @@ main section article{
 }
 
 /*FOOTER*/
+
 .footer-img{
-    float: left;
-    width: 20%;
+    width: 50%;
 }
 .footer-list1{
-    float: right;
-    width: 60%;
+    width: 100%;
 }
 .footer-list1 img{
-    float: right;
-    padding-left: 2%;
-    width: 8%;
+    width: 10%;
 }
 .footer-list li{
     display: inline;
@@ -147,19 +146,12 @@ main section article{
 }
 .footer-list a{
     color: gray;
-    padding-left: 2%;
+    /*padding-left: 2%;*/
 }
 .footer-list2{
-    float: left;
-    width:45%;
-}
-
-.footer-list2 img{
-    width: 2%;
-}
-label{
-    float: right;
+    width:100%;
 }
 .footer-list3{
-    float:right;
+    text-align: center;
+    width: 20;
 }
