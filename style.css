@@ -119,25 +119,33 @@ main section article{
     width: 20%;
 }
 .footer-list1{
-    float: left;
-    width:50%;
+    float: right;
+    width: 60%;
+}
+.footer-list1 img{
+    float: right;
+    padding-left: 2%;
+    width: 8%;
 }
 .footer-list li{
     display: inline;
     text-decoration: none;
 }
 .footer-list a{
-    border-left: 1px solid gray;
     color: gray;
     padding-left: 2%;
 }
 .footer-list2{
-    width: 50%;
+    float: left;
+    width:45%;
 }
-.footer-list2 li{
-    
- 
-}
+
 .footer-list2 img{
-    width: 5%;
+    width: 2%;
+}
+label{
+    float: right;
+}
+.footer-list3{
+    float:right;
 }
