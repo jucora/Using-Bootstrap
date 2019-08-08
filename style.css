@@ -51,7 +51,7 @@ nav span{
     font-size: 0.9em;
 }
 
-/*MAIN*/
+/*MAIN
 
 main section{
     border: 1px solid black;
@@ -59,6 +59,7 @@ main section{
 main section article{
     border: 1px solid black;
 }
+*/
 /*MORE STORIES SECTION*/
 .more-stories-img{
     float: left;
@@ -153,5 +154,4 @@ main section article{
 }
 .footer-list3{
     text-align: center;
-    width: 20;
 }
