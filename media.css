@@ -2,8 +2,15 @@
 /* Medium devices (landscape tablets, 768px and up) */
 
 @media only screen and (max-width: 991px) {
+    header h1{
+        font-size: 2em;
+        float: left;
+    }
     header div img{
-        width: 2%;
+        width: 3%!important;
+    }
+    .header-a2{
+        padding: 0.8% 1.5%;
     }
     
     .latest-img{
