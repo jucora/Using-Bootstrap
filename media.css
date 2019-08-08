@@ -3,13 +3,8 @@
 
 @media only screen and (max-width: 991px) {
     header div img{
-        width: 2%;;
+        width: 2%;
     }
-    
-    .opinion-img{
-        width: 10%;
-    }
-    
     
     .latest-img{
         margin-bottom: 1em;
@@ -17,5 +12,18 @@
     }
     .lastest-hr{
         clear: both;
+    }
+    
+   .previous-magazine{
+        width: 19%!important;
+    }
+    .current-magazine{
+        width:19%!important;
+    }
+    .magazine-desc{
+        margin-left: 35%!important; 
+    }
+    .newsletter-img{
+        width: 19%!important;
     }
 } 

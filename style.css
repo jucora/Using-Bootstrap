@@ -53,7 +53,10 @@ main section article{
     padding-right: 2%;
     width: 30%; 
 }
-
+/*OPINION SECTION*/
+.opinion-img{
+    float: left;
+}
 /*LATEST NEWS SECTION*/
 .newsweek-logo{
     float: left;
@@ -105,10 +108,12 @@ main section article{
     padding: 3%;
 }
 .newsletter-desc{
-    float: right;
+    float: left;
+    margin-left: 5%;
     width: 50%;
 }
 .newsletter-img{
+    float: left;
     width: 40%;
     height: 100%;
 }
