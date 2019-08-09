@@ -50,16 +50,13 @@ nav span{
     font-weight: 100;
     font-size: 0.9em;
 }
-
-/*MAIN
-
-main section{
-    border: 1px solid black;
+.featured-stories{
+    height: 180rem;  
 }
-main section article{
-    border: 1px solid black;
+/*TOP STORY*/
+.top-story{
+    height: 180rem;
 }
-*/
 /*MORE STORIES SECTION*/
 .more-stories-img{
     float: left;
@@ -67,6 +64,9 @@ main section article{
     width: 30%; 
 }
 /*OPINION SECTION*/
+.opinion{
+    height: 180rem;
+}
 .opinion-img{
     float: left;
 }
@@ -88,10 +88,6 @@ main section article{
     font-weight: bold;
     font-size: 0.8em;
     margin-top: 3%;
-}
-/*EDITORS PICK SECTION*/
-
-.editor-pick{    
 }
 /*SUBSCRIBE AND NEWSLETTER SECTION*/
 

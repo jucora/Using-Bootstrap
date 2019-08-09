@@ -13,7 +13,6 @@
     .header-a2{
         padding: 0.8% 1.5%;
     }
-    
     .latest-img{
         margin-bottom: 1em;
         width: 11em!important;
@@ -21,14 +20,11 @@
     .lastest-hr{
         clear: both;
     }
-    
-    
-    /*PUBLICITY SECTION;*/
     .publicity{
+        
         margin: 0 auto;
         width: 40%;
     }
-    
    .previous-magazine{
         width: 19%!important;
     }
