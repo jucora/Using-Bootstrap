@@ -1,0 +1,153 @@
+header{
+    background-color: #f72210;
+    color: white;
+    padding-bottom: 6.8em;
+    padding: 0.8% 3%;
+    vertical-align: middle;
+}
+.date{
+    color: white;
+}
+header h1{
+    font-size: 6em;
+    font-weight: bolder;
+    text-align: center;
+}
+.sign{
+    color: white;
+    font-size: 1em;
+}
+.header-a2{
+    color: #f72210;
+    padding: 2% 3%;
+}
+.burger{
+    width: 6.5%!important;
+}
+
+/*NAVBAR*/
+
+nav{
+    color: black;
+    font-weight: bold;
+    margin: 0 auto;
+    text-align: center;
+}
+nav li{
+    width: 25%;
+}
+.li-border{
+    border-right: 1px solid gray;
+    padding-left: 0.5%;
+    padding-right: 0.5%;
+}
+nav a{
+    list-style-type: none;
+    text-align: center;
+}
+nav span{
+    color: black;
+    font-weight: 100;
+    font-size: 0.9em;
+}
+.featured-stories{
+    height: 180rem;  
+}
+/*TOP STORY*/
+.top-story{
+    height: 180rem;
+}
+/*MORE STORIES SECTION*/
+.more-stories-img{
+    float: left;
+    padding-right: 2%;
+    width: 30%; 
+}
+/*OPINION SECTION*/
+.opinion{
+    height: 180rem;
+}
+.opinion-img{
+    float: left;
+}
+/*LATEST NEWS SECTION*/
+.newsweek-logo{
+    float: left;
+    width: 1.5em;
+}
+.latest-card{
+    background-color: #e5e5e5;
+    border-color: #f4f5f6;
+}
+.sign-up{
+    margin-left: 13%;
+    margin-top: -2%;
+    text-transform: uppercase;
+}
+.latest-Update-text{
+    font-weight: bold;
+    font-size: 0.8em;
+    margin-top: 3%;
+}
+/*SUBSCRIBE AND NEWSLETTER SECTION*/
+
+.subscribe-section{
+    height: 20em;
+    padding: 3%;
+}
+.previous-magazine{
+    float: left;
+    position: absolute;
+    width: 25%;
+}
+.current-magazine{
+    float: left;
+    left: 13%;
+    position: relative;
+    top: 0.9em;
+    width:30%;
+}
+.subs-news-a{
+    background-color: #f72210;
+    color: white;
+    font-weight: bold;
+    padding: 3%;
+}
+.newsletter-desc{
+    float: left;
+    width: 100%;
+}
+.newsletter-desc p{
+    float: left;
+}
+.newsletter-img{
+    float: left;
+    width: 40%;
+    height: 100%;
+}
+
+/*FOOTER*/
+
+.footer-img{
+    width: 50%;
+}
+.footer-list1{
+    width: 100%;
+}
+.footer-list1 img{
+    width: 10%;
+}
+.footer-list li{
+    display: inline;
+    text-decoration: none;
+}
+.footer-list a{
+    color: gray;
+    /*padding-left: 2%;*/
+}
+.footer-list2{
+    width:100%;
+}
+.footer-list3{
+    text-align: center;
+}

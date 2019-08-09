@@ -1,0 +1,40 @@
+@media only screen and (max-width: 991px) {
+    header h1{
+        font-size: 2em;
+        float: left;
+        width: 50%;
+    }
+    .header-div-3{
+        padding-bottom: 1%;
+    }
+    header div img{
+        width: 3%!important;
+    }
+    .header-a2{
+        padding: 0.8% 1.5%;
+    }
+    .latest-img{
+        margin-bottom: 1em;
+        width: 11em!important;
+    }
+    .lastest-hr{
+        clear: both;
+    }
+    .publicity{
+        
+        margin: 0 auto;
+        width: 40%;
+    }
+   .previous-magazine{
+        width: 19%!important;
+    }
+    .current-magazine{
+        width:19%!important;
+    }
+    .magazine-desc{
+        margin-left: 35%!important; 
+    }
+    .newsletter-img{
+        width: 19%!important;
+    }
+}
